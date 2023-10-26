@@ -1,0 +1,51 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 550px;
+  width: 400px;
+  background-color: var(--green);
+  z-index: 3;
+  border-radius: 20px;
+  overflow-y: auto;
+}
+
+.closeButton {
+  color: var(--navy);
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.closeButton:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.episodeList {
+  color: var(--navy);
+  font-weight: 500;
+  padding-left: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.episodeList:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.modalHeader {
+  margin: 0px;
+  color: var(--navy);
+  padding-left: 40px;
+  margin-bottom: 40px;
+}

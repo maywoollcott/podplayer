@@ -1,3 +1,13 @@
+:root {
+  --navy: #151e36;
+  --lightGray: #c4c4c4;
+  --blue: #5f8ca6;
+  --green: #b2de98;
+  --white: #ffffff;
+  --purple: #caa4d3;
+  --darkGray: #3c3b3b;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +20,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.pageContainer {
+  background-color: var(--navy);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 50;
+  color: white;
 }

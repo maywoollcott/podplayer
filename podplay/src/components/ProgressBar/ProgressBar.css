@@ -1,0 +1,33 @@
+.progressBarMain {
+  background-color: var(--lightGray);
+  width: 550px;
+  height: 20px;
+  border-radius: 45px;
+  display: flex;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+.progressBarCurrent {
+  background-color: var(--blue);
+  width: 275px;
+  border-radius: 45px;
+}
+
+.timeStamp {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--lightGray);
+}
+
+.progressBarContainer {
+  margin-top: 60px;
+}
+
+.timeStampContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

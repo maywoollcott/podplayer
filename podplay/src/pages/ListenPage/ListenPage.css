@@ -1,0 +1,77 @@
+.headerText {
+  font-size: large;
+  color: var(--blue);
+}
+
+.listenMainContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.modalBackgroundFilter {
+  background-color: hsla(224, 45%, 15%, 0.897);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.podContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.episodeDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+
+.episodeTitle {
+  margin: 0;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.episodeInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.allEpisodesButton {
+  padding: 15px;
+  background-color: var(--darkGray);
+  border-radius: 10px;
+  border-color: var(--lightGray);
+  border-style: solid;
+  color: white;
+  margin-top: 60px;
+  font-size: 12px;
+  border-width: 3px;
+}
+
+.allEpisodesButton:hover {
+  cursor: pointer;
+  /* transform: scale(1.1); */
+  border-style: solid;
+  border-color: var(--blue);
+}

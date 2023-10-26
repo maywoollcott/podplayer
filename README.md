@@ -1,3 +1,10 @@
+# Things I'd do with more time:
+
+Add unit tests
+Error handling
+Playing ads if clicked to skip past in progress bar
+Add navigation if we wanted to list all episodes on separate page
+
 # Assignment
 
 The task is to build a simple podcast player.
